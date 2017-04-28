@@ -16,12 +16,8 @@
 #   public *;
 #}
 
-# Apache and Google
--dontwarn org.apache.**
--keep class com.google.**
--dontwarn com.google.**
--keep class autovalue.shaded.com.google.**
--dontwarn autovalue.shaded.com.google.**
-
+# Lib
+-keep class com.github.javiersantos.**
+-dontwarn com.github.javiersantos.**
 # LVL
 -keep public class com.android.vending.licensing.ILicensingService

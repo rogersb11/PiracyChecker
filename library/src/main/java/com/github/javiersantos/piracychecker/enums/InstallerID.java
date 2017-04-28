@@ -7,11 +7,12 @@ import java.util.List;
 
 public enum InstallerID {
     GOOGLE_PLAY("com.android.vending|com.google.android.feedback"),
-    AMAZON_APP_STORE("com.amazon.venezia");
+    AMAZON_APP_STORE("com.amazon.venezia"),
+    GALAXY_APPS("com.sec.android.app.samsungapps");
 
     private final String text;
 
-    private InstallerID(final String text) {
+    InstallerID(final String text) {
         this.text = text;
     }
 
